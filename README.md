@@ -1,6 +1,6 @@
 # OPG-Age-Analysis: Automated Dental Age Estimation & PTR Pipeline
 
-## 📊 Model Benchmarking & Performance
+## Model Benchmarking & Performance
 
 We benchmarked five segmentation architectures to isolate individual teeth and pulp chambers. **DenseNet121** achieved the highest accuracy and is selected for the final pipeline.
 
@@ -14,7 +14,7 @@ We benchmarked five segmentation architectures to isolate individual teeth and p
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Per-Tooth Component Extraction**: Utilizes Connected Component Analysis (CCA) and horizontal spatial sorting to isolate individual teeth (1st Premolar, 2nd Premolar, 2nd Molar) from quadrant masks.
 * **Automated Metrics Calculation**: Computes individual Crown Area, Pulp Area, and Pulp-to-Tooth Ratio (PTR) in pixels.
